@@ -1,0 +1,74 @@
+QSTN  :   1.What is Selenium? What are the different Selenium components? Explain about Selenium Webdriver.
+
+ANS   :   Selenium is a open source automated testing framework, which is used to validate web applications from different browsers and platforms.
+          The four types of selenium components are:
+              ->  Selenium IDE - (Integrated Development Environment)
+              ->  Selenium RC - (Remote Control)
+              ->  Selenium WebDriver
+              ->  Selenium  Grid
+              
+           Selenium WebDriver is a browser automation framework that works with open source web APIs. It operates by the commands,
+           By sending those commands to the browser and interacting with the application.
+           
+           
+QSTN  :   2.How does Selenium communicate with the Web browsers?
+
+ANS   :   ->To communicate between browser and clients, Selenium WebDriver uses JSON. 
+          ->JSON wire protocol is a REST (Representational State Transfer) API that transfers the information between the http servers.
+          ->Each browser has its own HTTP server.
+          
+          
+QSTN  :   3.What are the locators available  to find an element using Selenium?
+          
+ANS   :   There are 8 locators to find an element in a selenium are:
+              ->  Id
+              ->  Name
+              ->  ClassName
+              ->  LinkText
+              ->  PartialLinkTest
+              ->  TagName
+              ->  Xpath
+              ->  CssSelector
+              
+              
+QSTN  :   4.Why ID is preferable than X-Path?
+
+ANS   :   X-path is a relative path finding it has some time 2 more elements in a same path.
+          So that we can prefer ID, Id is a unique key for element. There is one Id is not same with other element.
+          
+QSTN  :   5.How to select value in dropdown?
+
+ANS   :   ->  Create a select class in a selenium and import the select class.
+          ->  Find the element want to select and then select the options by
+              *selectByvalue();
+              *selectByIndex();
+              *selectByVisibleText();
+              
+QSTN  :   6.What is the difference between Absolute Path and Relative Path?
+
+ANS   :   An Absolute path contains full path of the element from the file directory top and down to the file.
+          An Relative path contains path of the element from the directory of the relative element path.
+          
+QSTN  :   7.How to verify if the given check box is checked or not?
+
+ANS   :   Using isSelected() to verify the return value is true means the check box is selected otherwise it return false the checkbox is not slected.
+
+QSTN  :   8.Difference between System.setProperty and WebDriverManager?
+
+ANS   :   System.setproperty :  This is used to download the browser and set the path where the browser exists and property value in it.
+          WebDriverManager  :   Thi is simply add the dependencies in pom.xml file in your project it can download and set the path automatically by using this method.
+
+
+QSTN  :   9.Write the syntax for preceding and following x-paths?
+
+ANS   :   Following Xpath syntax:
+            //tagName[x-path]/following::tagName[x-path]
+            
+          Preceding Xpath syntax:
+            //tagName[x-path]/preceding::tagName[x-path]
+            
+            
+QSTN  :   10.How to get an attribute value using Selenium WebDriver?
+
+ANS   :   By using getAttribute() to get the value of the attribute of webelement.
+          It returns string value, or it has boolen type return true or false, or it does not have any value return null.
