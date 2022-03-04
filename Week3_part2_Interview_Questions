@@ -15,12 +15,12 @@ ANS   :   In java, We can perform a single action in multiple ways is called pol
             * Method Overloading 
                   -> It has same class name, same method name but different arguments are passed is called Method overloading.
                   -> It is a Compile Time polymorphism.
-                  -> And this is Static polymorphism.
+                  -> And this is Static binding.
                   
             * Method Overriding
-                  -> It has different class name, and method name from the existing class is called as method overriding.
+                  -> It has different class name, same method name from the existing class is called as method overriding.
                   -> It is a Run Time Polymorphism.
-                  -> And this is Dynamic polymorphism.
+                  -> And this is Dynamic binding.
             
             
 QSTN  :   3.what is interface and example in selenium,java?
